@@ -1,0 +1,34 @@
+{
+  "name": "nodemysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "13.5.0"
+  },
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@hapi/joi": "^17.1.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-stage-3": "^6.24.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "joi-sql": "^1.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "react-devtools": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
