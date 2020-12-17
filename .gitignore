@@ -3,3 +3,4 @@ Template
 .env
 PROCFILE
 .babelrc
+.vscode/settings.json
